@@ -1,7 +1,7 @@
 import pandas as pd 
 
-df_thai = pd.read_csv("/Users/seal/Documents/thai_dict.csv")
-df_chinese = pd.read_csv("/Users/seal/Documents/chinese_dict.csv")
+df_thai = pd.read_csv("thai_dict.csv")
+df_chinese = pd.read_csv("chinese_dict.csv")
 
 print(df_thai)
 print(df_chinese)
